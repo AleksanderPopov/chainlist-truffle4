@@ -8,7 +8,7 @@ contract Ownable {
         _;
     }
 
-    function Ownable(){
+    function Ownable() public {
         owner = msg.sender;
     }
 
